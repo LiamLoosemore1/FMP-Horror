@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FreeHorrorGameKit/Scenes/Menu Scene.unity
-    guid: 7960b9bd0fc262d409394d74517fda03
+    path: Assets/Scenes/splashcreen.unity
+    guid: b881f227598658e4c8fca0e597381d54
   - enabled: 1
-    path: Assets/FreeHorrorGameKit/Scenes/Demo Scene.unity
-    guid: d1774bdf02b008d499d674c949f219e5
+    path: Assets/Scenes/mainmenu.unity
+    guid: f64b1efead0ac2a4298d360e55fd356e
+  - enabled: 1
+    path: Assets/Scenes/HorrorGame.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects: {}

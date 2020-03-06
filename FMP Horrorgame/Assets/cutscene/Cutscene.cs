@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Cutscene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject thePlayer;
+    public GameObject cutsceneCam;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
+        cutsceneCam.SetActive(true);
+        thePlayer.SetActive(false);
     }
+    
+
 }
