@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour {
 
+    public AudioClip DoorOpenSound;
+
     private Animator _animator;
 
     public GameObject OpenPanel = null;
@@ -15,12 +17,20 @@ public class DoorScript : MonoBehaviour {
         _animator = transform.Find("Door").GetComponent<Animator>();
 	}
 
+
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
             _isInsideTrigger = true;
             OpenPanel.SetActive(true);
+
+            if (_isInsideTrigger == true)
+            {
+
+                GetComponent<AudioSource>().PlayOneShot(DoorOpenSound);
+            }
+
         }
     }
 
@@ -41,6 +51,7 @@ public class DoorScript : MonoBehaviour {
             return OpenPanel.activeInHierarchy;
         }
     }
+
 
     // Update is called once per frame
     void Update () {
