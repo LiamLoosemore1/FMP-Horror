@@ -16,7 +16,6 @@ public class Cutscene : MonoBehaviour
         if (other.tag == "Player")
         {
             _isInsideTrigger = true;
-
         }
 
     }
