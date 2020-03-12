@@ -27,7 +27,6 @@ public class DoorScript : MonoBehaviour {
 
             if (_isInsideTrigger == true)
             {
-
                 GetComponent<AudioSource>().PlayOneShot(DoorOpenSound);
             }
 

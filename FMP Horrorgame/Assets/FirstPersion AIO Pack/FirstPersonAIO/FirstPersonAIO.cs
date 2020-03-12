@@ -590,15 +590,10 @@ public class BETA_SETTINGS{
                     {
                         if(!previousGrounded)
                         {
-                            if(dynamicFootstep.currentClipSet.Any()) { audioSource.PlayOneShot(dynamicFootstep.currentClipSet[Random.Range(0, dynamicFootstep.currentClipSet.Count)],Volume/10); }
-                            nextStepTime = headbobCycle + 0.5f;
+
                         } else
                         {
-                            if(headbobCycle > nextStepTime)
-                            {
-                                nextStepTime = headbobCycle + 0.5f;
-                                if(dynamicFootstep.currentClipSet.Any()){ audioSource.PlayOneShot(dynamicFootstep.currentClipSet[Random.Range(0, dynamicFootstep.currentClipSet.Count)],Volume/10); }
-                            }
+
                         }
                         previousGrounded = true;
                     } else
