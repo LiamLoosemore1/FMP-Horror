@@ -7,7 +7,7 @@ public class Cutscene : MonoBehaviour
     public GameObject thePlayer;
     public GameObject cutsceneCam;
 
-    void OnButtonPress.getkeyE(Collider other)
+/*    void OnButtonPress.getkeyE(Collider other)
     {
         cutsceneCam.SetActive(true);
         thePlayer.SetActive(false);
@@ -18,7 +18,7 @@ public class Cutscene : MonoBehaviour
             thePlayer.SetActive(true);
             cutsceneCam.SetActive(false);
         }
-    }
+    }   */
 
     
     
