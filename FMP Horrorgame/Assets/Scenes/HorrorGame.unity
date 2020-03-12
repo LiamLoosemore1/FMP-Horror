@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.009782872, g: 0.051867522, b: 0.15223652, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -894,7 +894,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 2.4994152
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -2106,15 +2106,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.34
+      value: 8.329
       objectReference: {fileID: 0}
     - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 1.09
       objectReference: {fileID: 0}
     - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.49
+      value: 11.592
       objectReference: {fileID: 0}
     - target: {fileID: 4448068258976056, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2564,10 +2564,17 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 18.225
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 6478244394911454294, guid: be650a4b560d1894698182d885528b11,
         type: 3}
       propertyPath: m_Name
       value: Door
+=======
+    - target: {fileID: 6478244394348525801, guid: be650a4b560d1894698182d885528b11,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+>>>>>>> master
       objectReference: {fileID: 0}
     - target: {fileID: 6478244395111116590, guid: be650a4b560d1894698182d885528b11,
         type: 3}
@@ -2609,6 +2616,31 @@ PrefabInstance:
       propertyPath: DoorOpenSound
       value: 
       objectReference: {fileID: 8300000, guid: 4719ce0d27ac46c4083912c3b08e611c, type: 3}
+    - target: {fileID: 3937170158113440109, guid: be650a4b560d1894698182d885528b11,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186327904790915515, guid: be650a4b560d1894698182d885528b11,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.816
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186327904865874745, guid: be650a4b560d1894698182d885528b11,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.123
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186327904088120619, guid: be650a4b560d1894698182d885528b11,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.037
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186327903847498771, guid: be650a4b560d1894698182d885528b11,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.214
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be650a4b560d1894698182d885528b11, type: 3}
 --- !u!1001 &7598202390712498507
@@ -2622,6 +2654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: startingRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598202390399416483, guid: 3120351001b0dce44b7ee02ef6ffff1e,
+        type: 3}
+      propertyPath: m_Name
+      value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 5555962838323210418, guid: 3120351001b0dce44b7ee02ef6ffff1e,
         type: 3}

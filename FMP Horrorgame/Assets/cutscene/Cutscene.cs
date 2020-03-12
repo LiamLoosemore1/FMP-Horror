@@ -11,14 +11,30 @@ public class Cutscene : MonoBehaviour
     private bool _isInsideTrigger = false;
 
 
-    void OnTriggerEnter(Collider other)
+/*    void OnButtonPress.getkeyE(Collider other)
     {
+<<<<<<< HEAD
         if (other.tag == "Player")
         {
             _isInsideTrigger = true;
         }
 
     }
+=======
+        cutsceneCam.SetActive(true);
+        thePlayer.SetActive(false);
+
+        IEnumerator endCutScene()
+        {
+            yield return new WaitForSeconds(5);
+            thePlayer.SetActive(true);
+            cutsceneCam.SetActive(false);
+        }
+    }   */
+
+    
+    
+>>>>>>> master
 
     void Update()
     {
